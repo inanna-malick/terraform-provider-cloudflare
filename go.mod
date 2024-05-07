@@ -2,6 +2,9 @@ module github.com/cloudflare/terraform-provider-cloudflare
 
 go 1.21
 
+replace github.com/cloudflare/cloudflare-go => ../cloudflare-go
+
+
 require (
 	github.com/agext/levenshtein v1.2.3 // indirect
 	github.com/cloudflare/cloudflare-go v0.94.0
